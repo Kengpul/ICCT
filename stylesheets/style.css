@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-details {
+  background-color: #11468f;
+  color: white;
+}
+
+nav {
+  background-color: #041562;
+  color: white;
+}
+
+nav .nav-link {
+  margin: 0 10px;
+}
+
+.nav-item .btn {
+  color: white !important;
+}
+
+.nav-item .btn {
+  border-radius: 12px;
+}
+
+.nav-item .btn:hover {
+  background-color: #041562;
+  color: white;
+}
+
+.list-group-item {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: none;
+}
