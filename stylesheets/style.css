@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Tw Cen Mt", "Giuconda Regular";
+}
+
 .contact-details {
   background-color: #11468f;
   color: white;
@@ -17,17 +21,18 @@ nav {
 nav .nav-link {
   margin: 0 10px;
 }
-
-.nav-item .btn {
+.btn {
   color: white !important;
+  border-radius: 15px;
 }
-
-.nav-item .btn {
-  border-radius: 12px;
+.btn-primary {
+  background-color: #051661;
 }
-
-.nav-item .btn:hover {
-  background-color: #041562;
+.btn-secondary {
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: #11468f;
   color: white;
 }
 
@@ -36,4 +41,46 @@ nav .nav-link {
   color: white;
   outline: none;
   border: none;
+}
+
+#introduction {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.502) 100%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: white;
+}
+
+#introduction .row {
+  height: 90vh;
+}
+
+#introduction-content {
+  line-height: 30px;
+}
+#introduction-content h3,
+h4 {
+  letter-spacing: 3px;
+}
+
+.image-content {
+  width: 80%;
+  height: 100%;
+}
+
+.first-image {
+  box-shadow: 17px 27px 5px 0px rgba(17, 70, 143, 0.75);
+  -webkit-box-shadow: 17px 27px 5px 0px rgba(17, 70, 143, 0.75);
+  -moz-box-shadow: 17px 27px 5px 0px rgba(17, 70, 143, 0.75);
+}
+
+.second-image {
+  box-shadow: -17px 27px 5px 0px rgba(17, 70, 143, 0.75);
+  -webkit-box-shadow: -17px 27px 5px 0px rgba(17, 70, 143, 0.75);
+  -moz-box-shadow: -17px 27px 5px 0px rgba(17, 70, 143, 0.75);
 }
